@@ -8,23 +8,21 @@
 
 ---
 
-> 覆盖：底层算力 → 模型 → 能力 → 应用 → 安全 → 工程化 → 企业化
-> 重点关注：AIGC、知识库、AI 编程、自动化工作流、网站内容抓取、博客文章生成、视频创作 / 视频简报、K12 辅助教育
+> AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模型 → 能力 → 应用 → 安全 → 工程化 → 企业化等。包含常见的AI概念、术语、工具、平台，尤其关注当前求职市场的稀缺职位（如AI工程师）、赚钱副业，如AIGC、知识库、AI编程、自动化工作流、网站内容抓取、博客文章生成、视频创作、视频简报、K12辅助教育等
 
----
-
-AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模型 → 能力 → 应用 → 安全 → 工程化 → 企业化等。包含常见的AI概念、术语、工具、平台，尤其关注当前求职市场的稀缺职位（如AI工程师）、赚钱副业，如AIGC、知识库、AI编程、自动化工作流、网站内容抓取、博客文章生成、视频创作、视频简报、K12辅助教育等
 
 ## 一、底层算力层（Compute & Infrastructure）
 
 ### 1. 硬件算力
 - **CPU**：x86（Intel / AMD）、ARM（Apple Silicon、Ampere）
-- **GPU**：NVIDIA（A100 / H100 / L40）、AMD MI 系列
+- **==GPU==**：NVIDIA（A100 / H100 / L40）、AMD MI 系列，家庭用RTX5090/4090/3090
 - **AI 加速器**：
-  - TPU（Google）
-  - NPU（华为 Ascend、Apple Neural Engine）
-  - FPGA（Xilinx）
-- **边缘设备**：Jetson、RK、树莓派 + AI 模块
+  - TPU（神經處理器 ，Google）
+  - NPU（張量處理器，华为 Ascend、Apple Neural Engine）
+  - LPU（語言處理器，Groq 这种专为速度而生的 LPU）
+  - ？？？FPGA（Xilinx）
+  - 国产芯片 (华为昇腾等)
+- ？？？**边缘设备**：Jetson、RK、树莓派 + AI 模块
 
 ### 2. 算力形态
 - 本地算力（Local AI / On-device AI）
@@ -32,13 +30,16 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 - 公有云 GPU
 - Serverless AI（按调用计费）
 
-### 3. 云平台
+### 3. 云平台：不想自己买显卡就租它们的！
 - **国际**：AWS、GCP、Azure、OCI
 - **国内**：阿里云、腾讯云、华为云、火山引擎
 - **AI 专用云**：
   - AWS Bedrock
   - Azure OpenAI
   - Google Vertex AI
+  - ==Hugging Face== (AI界的GitHub)
+  - ModelScope (魔搭社区)
+
 
 ---
 
@@ -56,9 +57,11 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 
 ### 3. 加速与并行
 - CUDA / ROCm
+- ！！！PyTorch （**炼丹炉框架**）大家基本都在用 PyTorch，Google 家的 TensorFlow 和 JAX 也有人用
 - NCCL
 - DeepSpeed
 - Ray
+
 
 ---
 
@@ -72,9 +75,11 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
   - Multimodal（多模态）
 
 ### 2. 主流模型家族
+闭源三巨头: GPT-4, Gemini, Claude 3
+
 - **通用大模型**
   - GPT-4 / GPT-4o / GPT-5（OpenAI）
-  - Claude（Anthropic）
+  - Claude（Anthropic）Claude 3.5（写代码超强）
   - Gemini（Google）
   - LLaMA（Meta）
 - **中文模型**
@@ -83,7 +88,19 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
   - 智谱 GLM
   - 百川
 - **开源模型**
-  - LLaMA / Mistral / Qwen / Yi
+  - LLaMA（Meta）
+  - Mistral
+  - DeepSeek
+  - Qwen
+  - Yi
+- **多模态模型**
+  - 画图: Midjourney, SDXL, Flux
+  - 做视频: Sora, Runway, Kling (可灵)
+  - 听与说: Whisper, XTTS
+AIGI
+画图: Midjourney 审美无敌，Stable Diffusion (WebUI/ComfyUI) 玩法最多。
+视频: Runway Gen-3，还有快手的可灵 (Kling)，让照片动起来只需一瞬间。
+说话: Whisper 听写超准，ChatTTS 说话跟真人似的。
 
 ### 3. 模型能力维度
 - 文本生成
@@ -98,9 +115,9 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 
 ### 1. 训练方式
 - 预训练（Pre-training）
-- 指令微调（SFT）
-- RLHF / RLAIF
-- Continual Learning
+- SFT（指令微调，老师傅带徒弟）
+- RLHF / RLAIF(按人类喜好调整)
+- PEFT (！！！省钱微调法 ==LoRA==)
 
 ### 2. 轻量化微调
 - LoRA / QLoRA
@@ -164,6 +181,8 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 
 ## 七、知识库与 RAG（重点）
 
+**进阶**: 加上知识图谱 (GraphRAG)，逻辑更严密。
+
 ### 1. 知识来源
 - 文档（PDF / Word / PPT）
 - 网站内容抓取（Web Scraping）
@@ -183,11 +202,16 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 - Weaviate
 - Qdrant
 
-### 4. RAG 架构
+### 4. RAG （检索增强）
 - Naive RAG
 - Hybrid Search
 - Agentic RAG
 - Graph RAG
+向量数据库 (给AI配个图书馆)
+Embedding 模型
+切片与清洗
+GraphRAG (知识图谱)
+
 
 ---
 
@@ -215,18 +239,31 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 
 ## 九、自动化工作流（Automation & Agent）
 
-### 1. Agent 框架
+规划 (脑子好使): CoT, ReAct
+记忆 (记性好): 长期/短期记忆
+工具调用 (手脚麻利)
+多智能体 (团队协作 CrewAI)
+
+让 AI 不止会聊天，还能帮你干活！比如 **CrewAI** 就像雇了一群 AI 员工互相配合，**LangChain** 是把各种工具串起来的胶水。
+
+### 1. Agent 开发框架
 - LangChain
 - LlamaIndex
 - AutoGPT
 - CrewAI
 - MetaGPT
+LangChain (万能胶水)
+LlamaIndex (数据管家)
+Semantic Kernel
+Dify (拖拉拽就能做)
 
 ### 2. 工作流工具
 - n8n
 - Zapier
 - Make
 - Airflow
+
+**神器**: **n8n** (超强，还能自己部署)，**Zapier** (简单好用)，**Dify** (小白也能搭应用)。
 
 ### 3. 典型流程
 - 抓取网站 → 清洗 → 生成文章 → 发布博客
@@ -236,6 +273,23 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 ---
 
 ## 十、应用层（Applications）
+
+AIGI 内容生产：
+自动写爆款文
+营销文案一键生成
+做号矩阵
+多媒体创作：
+数字人/视频剪辑 (HeyGen)
+视频一键总结
+AI 播客
+企业效能：
+企业知识库 (啥都懂的客服)
+AI 编程搭子 (Cursor)
+自动化流水线 (n8n/Zapier)
+垂类行业：
+K12 辅导 (苏格拉底式教学)
+法律/医疗小助手
+金融研报分析
 
 ### 1. 内容创作
 - AI 博客系统
@@ -260,6 +314,30 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 - AI 销售助手
 - AI HR
 
+
+AI 编程搭子 (AI Coding)
+程序员福音: Cursor (现在公认最好用的 AI 编辑器)，还有 GitHub Copilot。
+Devin 类: 这种更猛，直接像个真人工程师一样帮你修 Bug。
+
+
+爬虫与数据清洗 (Web Scraping & ETL)
+工具: Firecrawl 和 Crawl4AI 超好用，直接把花里胡哨的网页变成 AI 喜欢看的 Markdown 格式。
+流程: 抓网页 -> 洗掉广告和废话 -> 切成小块 -> 存进数据库。
+
+
+内容创作与营销 (Content Generation)
+写文章: 扔个关键词，AI 自动去调研、列大纲，最后用 Claude 写出一篇 SEO 满分的文章。
+
+
+搞视频:
+数字人: HeyGen 能让照片开口说话，口型都对得上。
+视频总结: 没时间看长视频？Whisper 转文字，LLM 提炼重点，一分钟看完一小时的内容。
+
+
+K12 教育 (EdTech)
+作业辅导: 以前是直接给答案，现在是像苏格拉底一样，一步步引导孩子自己想出来（拍照搜题升级版）。
+私人外教: 随时随地练口语，发音不对立马纠正，还不收你几百块一节课。
+
 ---
 
 ## 十一、安全与治理（AI Safety & Governance）
@@ -282,6 +360,13 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 ---
 
 ## 十二、工程化（MLOps / LLMOps）
+
+LLMOps: 像管服务器一样管理模型。
+部署: 想在自己电脑上跑模型？Ollama 简直是神器，一行命令搞定。
+评估 (Evaluation): Ragas 专门用来给 RAG 系统打分，看看它找资料准不准。
+安全 (Security):
+防套路: 别让用户几句话就把 AI 忽悠瘸了 (Prompt Injection)。
+保隐私: 公司的机密数据、客户的手机号，千万不能传到公网模型上去 (PII 过滤)。
 
 ### 1. 模型生命周期
 - 训练
@@ -332,8 +417,26 @@ AI 全栈技术树（AI Full-Stack Tech Tree），覆盖从底层算力 → 模�
 
 ---
 
-> 如果你愿意，我可以：
-> - 为【某一方向】单独拆解成“学习路线图”
-> - 给你一张【AI 全栈能力 × 职业发展】对照表
-> - 设计【K12 / 内容创作 / 视频工厂】完整 AI 架构方案
-
+```
+    4. 工程化与Ops<br>LLMOps
+      推理部署
+        vLLM / TensorRT-LLM
+        Ollama (本地轻松跑)
+        LM Studio
+      监控与评估
+        LangSmith
+        Ragas (给RAG打分)
+        Arize Phoenix
+      数据工程
+        ETL 管道
+        爬虫神器 (Crawl4AI/Firecrawl)
+        洗数据
+    5. 安全与伦理<br>Security
+      安全防护
+        防套话 (Prompt Injection)
+        隐私打码 (PII)
+        护栏机制 (Guardrails)
+      合规性
+        数据得留在国内
+        版权不侵权
+```
