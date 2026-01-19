@@ -8,6 +8,9 @@
 
 ---
 
+ElevenLabs：提供尖端的_AI_语音合成技术，让您轻松创建逼真、富有表现力的人工智能声音。支持多语言、声音克隆和实时语音生成，适用于有声读物、_配音_和内容创作
+
+
 
 OB使用AI工具：Cursor、TAOE、自动化工作流（n8n、Google AI Studio）
 
@@ -52,3 +55,9 @@ https://www.notion.so/cursorai/Building-with-Cursor-public-273da74ef0458051bf22e
 
 这是 Cursor 公司内部入职指南的公开版本，提供给市场营销团队和其他非工程岗位的员工。本指南将引导您从零开始，逐步完成项目的构建和部署。
 
+# AI 助手（AI Copilot）应用工具
+
+https://my.feishu.cn/wiki/RZFgw6RbziaoogkP93dcfhNWngh
+
+# 常用AI工具集锦：AI Copilot、ChatBots
+https://my.feishu.cn/wiki/NQLow0opDijbzMkp3mnc887cnte
