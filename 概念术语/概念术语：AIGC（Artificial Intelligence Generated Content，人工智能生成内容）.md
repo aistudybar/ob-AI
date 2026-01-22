@@ -1,6 +1,6 @@
 
 ---
-目录：
+目录：[[AI 概念和术语总览]]
 上一页：
 下一页：
 关键词：
@@ -25,7 +25,7 @@
 
 - **游戏与设计**：生成游戏场景、角色、物品
 
-一、概念上与 AIGC 同级的术语
+# 一、概念上与 AIGC 同级的术语
 
 这些是和 AIGC 一样，表示 AI 技术驱动某种产能的专业词：
 
@@ -41,7 +41,8 @@
 
 > **AIPC vs AIGC**：一个是辅助创作，一个是自动生成
 
-**二、产业方向上与 AIGC 并列的板块**
+
+# 二、产业方向上与 AIGC 并列的板块
 
 |分类|含义|
 |---|---|
@@ -52,28 +53,33 @@
 |**Predictive AI**|预测AI（金融预测、运维预测等）|
 |**Knowledge AI**|知识和推理AI（知识图谱、搜索、问答）|
 
-三、在生产模式上与 AIGC 并列的范式
+# 三、在生产模式上与 AIGC 并列的范式
 
-|模式|说明|
-|---|---|
-|**UGC**|User Generated Content（用户生成内容，比如B站、知乎）|
-|**PGC**|Professionally Generated Content（专业内容，比如媒体、课程）|
-|**AIGC**|AI Generated Content（AI自动生成内容）|
+| 模式       | 说明                                             |
+| -------- | ---------------------------------------------- |
+| **UGC**  | User Generated Content（用户生成内容，比如B站、知乎）         |
+| **PGC**  | Professionally Generated Content（专业内容，比如媒体、课程） |
+| **AIGC** | AI Generated Content（AI自动生成内容）                 |
 
-### **总结一句话**
+### # **总结一句话**
 
 如果你问的是最常意义上的“对等”：
 
 > **AIGC 的对等概念通常指 UGC / PGC**（内容生产模式角度）
 
+
 如果你问的是 AI 行业分类：
 
 > **AIGC 对等的是 AGI、Autonomous AI、AI4Science 等板块**
+
 
 如果你问的是专业术语并列：
 
 > **AIPC、AIaaS、AIoT 等属于术语层面对等**
 
+
+
+# 【参考】
 
 https://my.feishu.cn/wiki/SyoVwbP1NiUeSKkoOIDcOYWWnFf
 

@@ -1,4 +1,15 @@
-**、常用端点简介**
+
+---
+目录：
+上一页：
+下一页：
+关键词：
+相关链接：
+
+---
+
+
+## 常用端点简介
 
 1. **/api/generate**: 用于生成基于单一提示（prompt）的文本完成。
 2. **/api/chat**: 用于模拟对话，支持多轮消息历史。
@@ -9,7 +20,7 @@
   
   
 
-**二、常用参数（以/api/generate为例）**
+## 常用参数（以/api/generate为例）**
 
 这些参数是最常使用的，适用于大多数生成任务。
 
@@ -58,12 +69,11 @@
 
   
   
-
-**三、完整参数（以/api/generate和/api/chat为例）**
+## 完整参数（以/api/generate和/api/chat为例）
 
 以下是更全面的参数列表，包括高级选项和特定场景参数。
 
-**/api/generate完整参数**
+### **/api/generate完整参数**
 
 1. **model**（见上文）
 2. **prompt**（见上文）
@@ -123,7 +133,7 @@
     - **功能**: 控制模型在内存中保留的时间。支持秒数（如3600）、时间字符串（如"10m"）或-1（永久保留）。
     - **示例**: "keep_alive": "10m"
 
-**/api/chat特有参数**
+### **/api/chat特有参数**
 
 /api/chat与/api/generate类似，但更适合对话场景。主要区别在于以下参数：
 
@@ -160,7 +170,7 @@
   
   
 
-**四、参数功能总结**
+## 参数功能总结**
 
 - **基本控制**: model, prompt/messages, stream 用于选择模型和输入内容。
 - **输出风格**: temperature, top_k, top_p, repeat_penalty 调整生成文本的随机性和连贯性。
@@ -172,8 +182,23 @@
   
   
 
-**五、注意事项**
+## 注意事项**
 
 1. **参数兼容性**: 并非所有模型支持所有参数（如tools仅限特定模型）。
 2. **性能影响**: 增大num_ctx或加载多模态输入会增加内存和计算需求。
 3. **默认值**: 未指定参数时，使用模型或Ollama的默认设置。
+
+
+## 参数message与prompt有什么区别？用途和适用场景有所不同
+
+prompt 是一个单一的字符串，表示输入给模型的完整文本，通常用于描述任务，不区分用户和系统角色的输入，模型直接根据整个字符串生成输出。简单高效，适合单轮交互。通常用于 /api/generate。适用于一次性生成任务，例如翻译、文本生成、问答等。  
+{"model": "qwen2.5:7b","prompt": "Translate this to Chinese: Hello world","stream": false}  
+响应结果：  
+{"response": "你好，世界","done": true}  
+messages 是一个数组，通常包含多个带有角色（role）和内容（content）的对象，用于表示对话历史或多角色交互。通常用于 /api/chat。适用于多轮对话场景，例如聊天机器人或需要上下文的任务。支持区分不同角色（如 system、user、assistant），从而明确指令和用户的输入。可以通过 system 角色定义模型行为（如语气、身份）。  
+{"model": "qwen2.5:7b","messages": [{"role": "system", "content": "You are a professional translator."},{"role": "user", "content": "Translate this to Chinese: Hello world"}],"stream": false}  
+响应结果：  
+{"message": {"role": "assistant","content": "你好，世界"},"done": true}  
+  
+
+**结论：选择使用哪个参数取决于你的任务类型（生成还是聊天）和 API 端点（/api/generate 或 /api/chat）**
