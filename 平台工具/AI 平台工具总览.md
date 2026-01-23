@@ -8,20 +8,6 @@
 
 ---
 
-# 【AI ChatBots】
-
-https://my.feishu.cn/wiki/NQLow0opDijbzMkp3mnc887cnte
-
-## 截止2025年，国际主流 AI 模型下的 ChatBot 能力大致排序
-
-GPT4 Turbo / GPT-4o / Gemini 1.5 Pro / Claude 3 Opus > GPT-4 / Gemini Ultra > Gemini Pro / Llama 3 / Mistral Large / 微软 Copilot > Claude2 / Llama2 / GPT-3.5
-
-## 国产主流 ChatBot 能力大致排序
-
-KimiChat > 智谱清言 / 通义干问 > 百小应 / 海螺AI > 零一万物 / 跃问 / DeepSeek / 豆包 / 讯飞星火 / 天工 / 360 / 文心一言
-
-
----
 
 # 【国外AI开发者平台】
 ## ！！！Google AI Studio
@@ -265,7 +251,7 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 ## ChatGLM：清华；家用显卡就可运行！
 
 
-## ！！！Claude Skills
+## ！！！AgentSkills（Claude Skills）
 
 是 Anthropic 推出的一种模块化能力扩展系统，它允许用户将特定任务的指令、脚本和资源打包成可复用的“技能包”（文件夹），让通用型 Claude 模型能按需加载并像“领域专家”一样处理复杂、专业任务，实现标准化、自动化和高效化，从而避免每次都输入冗长提示词
 
@@ -330,13 +316,26 @@ Devin 是一款用于**端到端**任务的自主人工智能软件工程师，�
 
 ---
 
-# 【AI开发：网站】
+# 【AI ChatBots】
+
+https://my.feishu.cn/wiki/NQLow0opDijbzMkp3mnc887cnte
+
+## 截止2025年，国际主流 AI 模型下的 ChatBot 能力大致排序
+
+GPT4 Turbo / GPT-4o / Gemini 1.5 Pro / Claude 3 Opus > GPT-4 / Gemini Ultra > Gemini Pro / Llama 3 / Mistral Large / 微软 Copilot > Claude2 / Llama2 / GPT-3.5
+
+## 国产主流 ChatBot 能力大致排序
+
+KimiChat > 智谱清言 / 通义干问 > 百小应 / 海螺AI > 零一万物 / 跃问 / DeepSeek / 豆包 / 讯飞星火 / 天工 / 360 / 文心一言
 
 
-# 【AI开发：网站APP】
+## ！！！Felo Chat
+
+[https://chat.felo.ai/](https://chat.felo.ai/)
+
+![image.png](https://repo.in4tree.com/2026/01/22_1769136689663.png)
 
 
-# 【AI开发：手机APP】
 
 
 ---
@@ -347,13 +346,23 @@ Devin 是一款用于**端到端**任务的自主人工智能软件工程师，�
 
 [https://www.perplexity.ai/](https://www.perplexity.ai/)
 
-## [https://copilot.microsoft.com/（图片识别和生成！）](https://copilot.microsoft.com/%EF%BC%88%E5%9B%BE%E7%89%87%E8%AF%86%E5%88%AB%E5%92%8C%E7%94%9F%E6%88%90%EF%BC%81%EF%BC%89)
+## [https://copilot.microsoft.com/](https://copilot.microsoft.com/)
 
 主要优势是可以直接**中文对话**、可以生成图片。相比 GPT-3.5 的优势是可以**识别图片**、生成**图片**，以及**联网搜索**新的内容。
 
+
+## ！！！Felo（你的免费AI智能搜索引擎！）
+
+https://felo.ai/search
+
+![image.png](https://repo.in4tree.com/2026/01/22_1769135976143.png)
+
+
 ## 秘塔AI搜索
 
-## Felo - 你的免费AI智能搜索引擎
+https://metaso.cn/
+
+
 
 ## MindSearch
 
