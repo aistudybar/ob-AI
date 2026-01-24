@@ -659,13 +659,12 @@ Kimi 阅读助手是一款非常实用的工具，它能够智能地解析用户
 
 ---
 
-# **【AI** Copilots：**教学辅助】（私教！）**
+# 【AI Copilots：教学辅助】（私教！）
 
 
 ---
 
-# **【AI** Copilots：**知识库】（知识管理与问答！）**
-
+# 【AI Copilots：知识库】（知识管理与问答！）
 
 
 ---
@@ -1018,11 +1017,43 @@ AI 生成视频又卷起来了！Google 发布最强视频模型 Lumiere (需施
 
 ---
 
-# 【AIGC：**视频生文**】
+# 【AIGC：**视频生文**】字幕、摘要、分析
 
-## Descript（影音转文字！）
+## ！！！Notebook LM（YouTube视频全片字幕！无字幕时自动生成字幕！分析！摘要）
 
-是**一款線上影片剪輯軟體**，能夠將影音中的語音轉換為文字，讓用戶透過編輯文字內容的方式來編輯影音，其最大的特色就是提供AI剪輯的功能，讓影音內容的編輯變得更加直覺和高效。 用戶可以在Descript中使用直觀的方式剪輯，貼上和刪除文案，相應的影像或聲音內容也會隨之被修改
+https://notebooklm.google/
+
+![image.png](https://repo.in4tree.com/2026/01/23_1769156111457.png)
+
+
+## ！！！Youtube Transcript Generator（Chrome扩展！YT视频全片字幕！多语言翻译！无字幕时自动生成字幕！）
+
+
+## ！无限制的YouTube视频字幕摘要生成器 - ChatGPT（Chrome扩展！YT视频全片字幕！摘要！）
+
+
+## Mapify - AI 思维导图生成器，适用于 YouTube 和 PDF（网页版$6/月+Chrome扩展、视频10分钟内免费！YT视频全片字幕！多语言翻译！生成思维导图！）
+
+
+AI 思维导图 一键总结
+
+将 YouTube 视频、PDF/文档、URLs、播客和会议记录快速总结为思维导图。由 GPT、Gemini 或其他顶尖的大语言模型驱动。
+
+
+## GitMind（YouTube视频全片字幕！多语言翻译！生成思维导图！$4/月）
+
+https://gitmind.com/
+
+
+## Reccloud（分析视频！AI 询问和回答！$4/月）
+
+https://reccloud.com/
+
+
+## ？？？Descript
+## ？？？Whisper
+
+
 
 ---
 
