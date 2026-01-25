@@ -9,20 +9,72 @@
 ---
 
 
+# 【手机】
+
+## 手机拍照翻译
+
+### ！！！Google搜索的拍照中有翻译文字功能
+
+
+## 手机：听写录入
+
+### ！！！苹果备忘录
+
+### ！！！三星手机的**内置的[三星键盘](https://www.google.com/search?q=%E4%B8%89%E6%98%9F%E9%94%AE%E7%9B%98&rlz=1C1AJCO_zh-CN&oq=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA+%E5%90%AC%E5%86%99&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDBiABDIGCAAQRRg5MgkIARAAGAwYgAQyBwgCEAAY7wUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQkxMjY0MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjwrdCztqWSAxWsJDQIHaqFAaIQgK4QegQIARAC)或[Google语音输入](https://www.google.com/search?q=Google%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5&rlz=1C1AJCO_zh-CN&oq=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA+%E5%90%AC%E5%86%99&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDBiABDIGCAAQRRg5MgkIARAAGAwYgAQyBwgCEAAY7wUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQkxMjY0MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjwrdCztqWSAxWsJDQIHaqFAaIQgK4QegQIARAD)（Gboard键盘）**
+
+
+## 手机：即时语音转文字（如会议纪要）、即时翻译
+
+### ！！！三星手机自带的Interpreter（反应快！完全实时显示、翻译略有延时！）
+
+
+## 手机：即时翻译
+
+### ！！！Google Translate
+
+
+## 手机：即时口译（耳机即时播放口译声音）！！！
+
+### ！！！Google Translate：Live Translate（中文很多时候不响应！）
+
+
+---
+
+# 【电脑即时】
+
+## 即时语音转文字（如会议纪要、ZOOM视频会议）、即时翻译
+
+### ### ！！！[https://speechnotes.co/dictate/（完全实时转录！支持语言多！）](https://speechnotes.co)
+
+![image.png](https://repo.in4tree.com/2026/01/24_1769316376566.png)
+
+
+###  ！！[https://whispertyping.com/](https://whispertyping.com/)（结束时开始录入！不实时、有延时、不太好！有时间限制！收费版无限制）
+
+![image.png](https://repo.in4tree.com/2026/01/24_1769316565199.png)
+
+
+### ！讯飞输入法（长按录音松开录入！不实时、有延时、不太好！）
+
+
+
+---
+
 # 【国外AI开发者平台】
+
 ## ！！！Google AI Studio
 
 是为**个人开发者**设计的、一款**基于浏览器**的免费 **AI 实验和原型设计**平台，让用户（包括开发者和非技术人员）能通过简单的自然语言指令和图形界面，快速体验和使用强大的 [Gemini 模型](https://aistudio.google.com/) 进行文本生成、**多模态**（文字、图片、代码）交互、数据处理等任务，并能将想法快速转换为可部署的应用，是探索和构建**生成式 AI** 解决方案的便捷起点！
 
 ### 1. 特点
 
-- 非常适合长上下文处理：免费额度为100 万个token！！！
+- 非常适合长上下文处理：每日免费额度为**100 万个token**！！！
 - 易于上手：无需编程基础，通过浏览器即可直观操作，非常适合新手、设计师和内容创作者。
-- 快速原型设计：快速实验不同的模型和提示 (Prompt)，设计和测试 AI 应用。
-- 多模态支持：能处理文本、图片和代码，实现智能问答、内容创作、代码生成等功能。
+- 快速原型设计：快速实验不同的**模型**和**提示** (Prompt)，设计和测试 **AI 应用**。
+- 多模态支持：能处理**文本、图片和代码**，实现**智能问答**、**内容创作**、**代码生成**等功能。
 - 与 Gemini 模型深度集成：直接访问和利用 Google 最先进的 Gemini 系列模型。
-- 跨平台分享：可以将生成的模型和提示分享给他人
-- 生成代码和部署：生成应用原型后，可无缝过渡到更专业的 [Vertex AI 平台](https://cloud.google.com/generative-ai-studio?hl=zh-CN) 或直接使用 Gemini API 进行生产部署。
+- 跨平台分享：可以将生成的模型和提示**分享**给他人
+- 生成代码和部署：生成应用原型后，可无缝过渡到更专业的 [Vertex AI 平台](https://cloud.google.com/generative-ai-studio?hl=zh-CN) 或直接使用 Gemini API 进行生产**部署**。
 - Google 生态集成：可与 Google Drive、Google Maps 等服务结合，增强应用能力
 
 ### 2. 比较 Gemini
@@ -107,11 +159,6 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 - IBM Watson Studio是一个基于云的AI开发平台，它提供了Jupyter笔记本、AI模型训练和部署功能，支持开发者进行AI应用的开发和部署。
 
 
-
----
-
-# 【国内AI开发者平台】
-
 ## 百度AI平台
 
 - 百度AI平台提供了包括深度学习框架PaddlePaddle、AI模型市场、AI技术文档等在内的全面服务，支持开发者从零开始训练模型，也可以直接使用平台上的预训练模型。
@@ -152,7 +199,7 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 
 ---
 
-# ！！！【模型集成环境】类IDE！
+# ！！！【AI模型集成环境】类IDE！
 
 ## AnythingLLM
 
@@ -312,6 +359,39 @@ Devin 是一款用于**端到端**任务的自主人工智能软件工程师，�
 
 
 ## V0.DEV UI Gen（Vercel发布基于AI的UI代码生成服务！)
+
+
+---
+
+# 【网站开发】
+
+## AI智能客服机器人
+
+
+
+---
+
+# 【企业知识库】（知识管理与问答！）
+
+
+---
+
+# 【AI 教学辅助】（私教！）
+
+
+---
+
+# 【专家、本地专属大模型】
+
+
+---
+
+# 【炼丹、微调】
+
+
+---
+
+# 【AI Agent（智能体）】
 
 
 ---
@@ -620,6 +700,31 @@ https://napkin.ai/
 
 ---
 
+# 【AI Copilots：Youtube视频】
+
+## 1. 网页YT视频：软字幕的获取、翻译
+
+### YT自带的转为文本功能
+
+## 2. 网页YT视频：硬字幕、图片中文本的获取（OCR）、翻译：
+
+### PixPin截屏（会员才能翻译！）
+
+## 3. 网页YT视频：全文字幕获取、翻译
+
+### [Chrome扩展] YouTube Transcript Generator（多语言翻译！无软字幕时自动生成字幕！）
+
+## 4. 网页YT视频：AI 摘要
+
+## 5. YT视频（URL）：AI 分析、咨询
+
+### NotebookLM
+
+[https://notebooklm.google/](https://notebooklm.google/)
+
+
+---
+
 # 【AI Copilots：网页插件】
 
 ## **！！！Glarity（用AI总结视频及翻译网页！）**
@@ -657,17 +762,6 @@ Kimi 阅读助手是一款非常实用的工具，它能够智能地解析用户
 ## Jina AI Reader
 
 
----
-
-# 【AI Copilots：教学辅助】（私教！）
-
-
----
-
-# 【AI Copilots：知识库】（知识管理与问答！）
-
-
----
 ---
 
 
@@ -744,23 +838,19 @@ Flux 是一款由 Black Forest Labs 开发的开源 AI 图像生成工具，采�
 
 推荐理由在于其出色的图像质量和灵活的使用场景，使得FLUX.1在AI图像生成领域中具有竞争力，尤其在处理复杂场景和细节方面表现优异，适合各种创作需求。
 
-！！DALLE-3（易上手）
+## ！！DALLE-3（易上手）
 
 [https://chatgpt.com/g/g-2fkFE8rbu-dall-e](https://chatgpt.com/g/g-2fkFE8rbu-dall-e)
 
 在 ChatGPT 中使用需要付费 GPT-4，可在微软 Copilot 中免费使用最近，GPT4-Dalle 作图模型升级，已支持局部重绘
 
-！！！Canva（替代Midjourney！**Canva宣布Affinity 永久免费，竞争Photoshop！**）
+## ！！！Canva（替代Midjourney！**Canva宣布Affinity 永久免费，竞争Photoshop！**）
 
 [https://www.canva.com](https://www.canva.com)
 
 Canva AI 完整攻略教學，比 Midjourney/Stable Diffusion 更加實用的人工智能支持 AI 写文案、文生图（text to image 功能）、图片编辑（修图）、数字人制作、网页模板快速搭建。
 
 但目前写文案和文生图能力，相比 ChatGPT、Midjourney 还有明显差距，可以多工具配合来用设计、修图、丰富的模板资源，是 Canva 的看家本领，现在 AI 加持后，能力和实用性应该会越来越强
-
-I！deogram [https://ideogram.ai/t/explore](https://ideogram.ai/t/explore)
-
-Ideogram 是一款由前 Google Brain 员工创立的 AI 图像生成工具，能够根据文本描述生成高质量图像，特别擅长精确嵌入文本内容，支持多种风格选择（如写实、设计、3D、动浸等），推荐给需要快速生成海报、Logo 和其他视觉内容的设计师和内容创作者使用。
 
 ## Ideogram
 
@@ -997,11 +1087,24 @@ AI 生成视频又卷起来了！Google 发布最强视频模型 Lumiere (需施
 
 # 【AIGC：**图生文**】
 
+## 1. 图片：AI搜索
+
+## 2. 截屏：文本获取（OCR）、翻译：
+
+### PixPin截屏（会员才能翻译！）
+
+## ？？？3. 图片：AI摘要
+
+## ？？？4. 图片：照片分析报告
+
+## ？？？5. 图片：AI提示词
+
 ---
 
 # 【AIGC：**图生视频**】
 
-## **a1.art**
+## **a1.art**（AI 照片动画（对口型！））
+
 
 ---
 
@@ -1057,9 +1160,9 @@ https://reccloud.com/
 
 ---
 
-# 【AIGC：长变短视频】
+# 【AIGC：视频生视频】
 
-## OpusClip
+## OpusClip（长视频生成短视频）
 
 是内容创作者的省时神器，能自动将长视频剪辑成病毒式短片段。
 
