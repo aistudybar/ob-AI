@@ -9,57 +9,6 @@
 ---
 
 
-# 【手机】
-
-## 手机拍照翻译
-
-### ！！！Google搜索的拍照中有翻译文字功能
-
-
-## 手机：听写录入
-
-### ！！！苹果备忘录
-
-### ！！！三星手机的**内置的[三星键盘](https://www.google.com/search?q=%E4%B8%89%E6%98%9F%E9%94%AE%E7%9B%98&rlz=1C1AJCO_zh-CN&oq=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA+%E5%90%AC%E5%86%99&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDBiABDIGCAAQRRg5MgkIARAAGAwYgAQyBwgCEAAY7wUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQkxMjY0MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjwrdCztqWSAxWsJDQIHaqFAaIQgK4QegQIARAC)或[Google语音输入](https://www.google.com/search?q=Google%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5&rlz=1C1AJCO_zh-CN&oq=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA+%E5%90%AC%E5%86%99&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDBiABDIGCAAQRRg5MgkIARAAGAwYgAQyBwgCEAAY7wUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQkxMjY0MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjwrdCztqWSAxWsJDQIHaqFAaIQgK4QegQIARAD)（Gboard键盘）**
-
-
-## 手机：即时语音转文字（如会议纪要）、即时翻译
-
-### ！！！三星手机自带的Interpreter（反应快！完全实时显示、翻译略有延时！）
-
-
-## 手机：即时翻译
-
-### ！！！Google Translate
-
-
-## 手机：即时口译（耳机即时播放口译声音）！！！
-
-### ！！！Google Translate：Live Translate（中文很多时候不响应！）
-
-
----
-
-# 【电脑即时】
-
-## 即时语音转文字（如会议纪要、ZOOM视频会议）、即时翻译
-
-### ### ！！！[https://speechnotes.co/dictate/（完全实时转录！支持语言多！）](https://speechnotes.co)
-
-![image.png](https://repo.in4tree.com/2026/01/24_1769316376566.png)
-
-
-###  ！！[https://whispertyping.com/](https://whispertyping.com/)（结束时开始录入！不实时、有延时、不太好！有时间限制！收费版无限制）
-
-![image.png](https://repo.in4tree.com/2026/01/24_1769316565199.png)
-
-
-### ！讯飞输入法（长按录音松开录入！不实时、有延时、不太好！）
-
-
-
----
-
 # 【国外AI开发者平台】
 
 ## ！！！Google AI Studio
