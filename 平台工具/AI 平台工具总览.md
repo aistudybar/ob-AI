@@ -661,7 +661,7 @@ https://napkin.ai/
 
 ## 3. 网页YT视频：全文字幕获取、翻译
 
-### [Chrome扩展] YouTube Transcript Generator（多语言翻译！无软字幕时自动生成字幕！）
+### \[Chrome扩展] YouTube Transcript Generator（多语言翻译！无软字幕时自动生成字幕！）
 
 ## 4. 网页YT视频：AI 摘要
 
@@ -872,19 +872,25 @@ ComfyUI 結合 Z-Image Turbo 全攻略｜不可思議的6B本機生圖模型，2
 
 # 【AIGC：**文生语音**】
 
+  
+## ！！！！！Qwen3-TTS（超强大！情绪语气声音克隆！6G 显存可用！比 indextts2 还强大！）
+
+## ！！！！ index-tts 2（bilibili，情绪语气声音克隆！）
+
+## ！！！ElevenLabs（最好的TTS！）
+
+(https://elevenlabs.io/)[https://elevenlabs.io](https://elevenlabs.io)
+
+文字转语音与人工智能语音生成器。号称最佳在线文字转语音软件。
+
+提供尖端的_AI_语音合成技术，让您轻松创建逼真、富有表现力的人工智能声音。支持多语言、声音克隆和实时语音生成，适用于有声读物、配音和内容创作。
+
 ## 微软 Azure 文字转语音
 
 [https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech](https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech)
 
 可通过网站部署，每月 50 万个字符的免费额度，对于个人使用者日常基本足够语音库中有近 500 种语言、并提供新闻、有声书等分类应用场景调用
 
-## ！！！ElevenLabs（最好的TTS！）
-
-[https://elevenlabs.io](https://elevenlabs.io)
-
-文字转语音与人工智能语音生成器。号称最佳在线文字转语音软件。
-
-提供尖端的_AI_语音合成技术，让您轻松创建逼真、富有表现力的人工智能声音。支持多语言、声音克隆和实时语音生成，适用于有声读物、配音和内容创作。
 
 ## Fish Speech
 
