@@ -238,9 +238,11 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 ## llama.cpp
 
 
-## LangChain、Flowise（基于LangChain的可视化界面）
+## LangChain、！！！Flowise（基于LangChain的可视化界面）
 
-## Langflow：0门槛0代码拖拽生成企业的专属AI大模型，专属llm会成为每个企业的标配，犹如2004年的每个企业都需要网站一样
+销售网站聊天机器人，那么Flowise会是更好。如果你想构建更复杂、功能更强大的 LLM 应用，并且主要目的不是将其用作网站聊天机器人，那么我会推荐 LangFlow。
+
+## ！！！Langflow：0门槛0代码拖拽生成企业的专属AI大模型，专属llm会成为每个企业的标配，犹如2004年的每个企业都需要网站一样
 
 ## LangChain-ChatGLM：本地私有化部署企业专有llm大语言模型
 
@@ -265,9 +267,8 @@ https://www.youtube.com/watch?v=DNF0FJ9l7wo
 ## ==n8n== (超强、免费、本地部署！)
 
 
-[[AI 工具：n8n]]
 
-## ==Zapier== (简单好用！)
+## Zapier (简单好用！)
 
 
 ## Make
@@ -279,7 +280,7 @@ https://www.youtube.com/watch?v=DNF0FJ9l7wo
 ## Airflow
 
 
-## ==Coze==（扣子）
+## Coze（扣子）
 
 
 ---
@@ -889,6 +890,7 @@ ComfyUI 結合 Z-Image Turbo 全攻略｜不可思議的6B本機生圖模型，2
 
 提供尖端的_AI_语音合成技术，让您轻松创建逼真、富有表现力的人工智能声音。支持多语言、声音克隆和实时语音生成，适用于有声读物、配音和内容创作。
 
+## F5 TTS（几秒声音样本就能克隆声音！长文本效果很好）
 ## 微软 Azure 文字转语音
 
 [https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech](https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech)
