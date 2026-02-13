@@ -49,7 +49,7 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 
 ## ！！！NotebookLM
 
-[[AI 工具：Google：NotebookLM（最好的个人知识库工具！）]]
+[[AI 工具：Google：NotebookLM（最好的个人知识库工具！学习助手！最强第二大脑！消除幻觉！）]]
 
 ## ！！Nano banana
 
@@ -209,7 +209,7 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 
 ---
 
-# 【模型本地】
+
 
 ![image.png](https://repo.in4tree.com/2026/01/21_1769047817816.png)
 
@@ -229,7 +229,7 @@ Vertex AI 是给企业用的，它有服务等级协议 (SLA)，可以预置资�
 - 模型导入与定制：可从 [PyTorch](https://zhida.zhihu.com/search?content_id=242434953&content_type=Article&match_order=1&q=PyTorch&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NjkwNjMwNDksInEiOiJQeVRvcmNoIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MjQyNDM0OTUzLCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.p5k9wfsUsghOy-rxvFP5PK-z-3XY0_wUGaDfFnZ3uDs&zhida_source=entity) 、 [Safetensors](https://zhida.zhihu.com/search?content_id=242434953&content_type=Article&match_order=1&q=Safetensors&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NjkwNjMwNDksInEiOiJTYWZldGVuc29ycyIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjI0MjQzNDk1MywiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.o50GBTYC9lauk9tcq6b_yfPJfgUdU3_dE8o_UaFzkHY&zhida_source=entity) 、 [GGUF](https://zhida.zhihu.com/search?content_id=242434953&content_type=Article&match_order=1&q=GGUF&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NjkwNjMwNDksInEiOiJHR1VGIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MjQyNDM0OTUzLCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.vvKTnma26HeaYWWzUfxadHJZwmIgi8LNilpqjMPp-6U&zhida_source=entity)导入
 
 
-## LM Studio
+## ！！！LM Studio
 
 
 ##  vLLM（faster than Ollama！）
@@ -258,6 +258,19 @@ Codex、Cursor、Opencode等Al编程工具陆续加入了对AgentSkills的支持
 Agent Skills (Claude Skills) 详细攻略，一期视频精通
 https://www.youtube.com/watch?v=DNF0FJ9l7wo
 
+
+---
+
+# 【本地模型】
+
+## ！！！GPT-OSS：性能、开放访问和可部署性的最佳组合！！！
+
+隆重推出 gpt-oss
+https://openai.com/zh-Hans-CN/index/introducing-gpt-oss/
+
+  
+🚀OpenAI重磅开源gpt-oss系列模型！本地部署+客观深度测评！开源模型中的王者gpt-oss-120B和gpt-oss-20B！从幻觉测试到代码生成，从逻辑推理到文档分析，全面碾压现有开源模型
+https://www.youtube.com/watch?v=Ud7JZwjOHms
 
 
 ---
